@@ -13,11 +13,14 @@ form,h1{
 
 
 li{
+    display: flex;
+    justify-content: space-between;
     border: 10px;
     border: solid;
     background-color: rgb(17, 127, 127);
-    border-radius: 30px;
+    /* border-radius: 30px; */
     color: white;
+    font-size: 20px;
 }
 form{
     display: flex;
@@ -28,7 +31,7 @@ form{
 #button,button{
     background-color: rgb(8, 53, 53);
     color: aliceblue;
-    width: 100px;
+    width: 80px;
 }
 #button:hover{
     background-color: aqua;
