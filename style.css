@@ -1,0 +1,35 @@
+html{
+    background-color: floralwhite;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+form,h1{
+    margin: 30px;
+}
+
+
+li{
+    border: 10px;
+    border: solid;
+    background-color: rgb(17, 127, 127);
+    border-radius: 30px;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+}
+#button,button{
+    background-color: rgb(8, 53, 53);
+    color: aliceblue;
+    width: 100px;
+}
+#button:hover{
+    background-color: aqua;
+}
